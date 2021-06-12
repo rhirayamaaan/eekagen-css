@@ -4,11 +4,13 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "deploy": "rsync -a ./src/ ./public --exclude='scss' && gh-pages -d public"
   },
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^3.2.0",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0",
     "node-sass": "^6.0.0"
