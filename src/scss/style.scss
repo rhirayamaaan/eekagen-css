@@ -51,12 +51,14 @@ body {
 
 .articleList {
   .articleList__items {
-    padding-top: 1px;
     background-color: #fff;
   }
 
-  .articleList__link {
+  .articleList__item + .articleList__item {
     margin-top: -1px;
+  }
+
+  .articleList__link {
     display: block;
     padding: 16px;
     border-top: 1px solid #eaeaea;
