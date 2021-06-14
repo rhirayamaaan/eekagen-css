@@ -84,14 +84,6 @@ body {
   color: inherit;
 }
 
-.articleList .articleList__more {
-  display: block;
-  line-height: 40px;
-  text-align: center;
-  color: inherit;
-  text-decoration: none;
-}
-
 .page {
   margin: 0 auto;
   padding: 24px 0;
