@@ -65,15 +65,6 @@ body {
   text-decoration: none;
 }
 
-.articleList .articleList__link.articleList__link--disabled {
-  background-color: #ccc;
-  color: #fff;
-}
-
-.articleList .articleList__link.articleList__link--disabled .artcileList__description {
-  color: inherit;
-}
-
 .articleList .articleList__name {
   font-size: 14px;
   font-weight: bold;
@@ -84,12 +75,13 @@ body {
   color: #808080;
 }
 
-.articleList .articleList__more {
-  display: block;
-  line-height: 40px;
-  text-align: center;
+.articleList .articleList__link.articleList__link--disabled {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.articleList .articleList__link.articleList__link--disabled .artcileList__description {
   color: inherit;
-  text-decoration: none;
 }
 
 .page {
