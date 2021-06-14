@@ -66,15 +66,6 @@ body {
     text-decoration: none;
   }
 
-  .articleList__link.articleList__link--disabled {
-    background-color: #ccc;
-    color: #fff;
-
-    .artcileList__description {
-      color: inherit;
-    }
-  }
-
   .articleList__name {
     font-size: 14px;
     font-weight: bold;
@@ -83,6 +74,15 @@ body {
   .artcileList__description {
     margin-top: 5px;
     color: #808080;
+  }
+
+  .articleList__link.articleList__link--disabled {
+    background-color: #ccc;
+    color: #fff;
+
+    .artcileList__description {
+      color: inherit;
+    }
   }
 
   .articleList__more {
