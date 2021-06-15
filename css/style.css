@@ -70,7 +70,7 @@ body {
   font-weight: bold;
 }
 
-.articleList .artcileList__description {
+.articleList .articleList__description {
   margin-top: 5px;
   color: #808080;
 }
@@ -80,7 +80,7 @@ body {
   color: #fff;
 }
 
-.articleList .articleList__link.articleList__link--disabled .artcileList__description {
+.articleList .articleList__link.articleList__link--disabled .articleList__description {
   color: inherit;
 }
 
